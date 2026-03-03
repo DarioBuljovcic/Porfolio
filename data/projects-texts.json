@@ -1,0 +1,53 @@
+{
+  "homeFeatured": {
+    "heading": "Izdvojeni projekti",
+    "allProjectsCta": "Pogledaj sve projekte",
+    "visitCta": "Poseti sajt",
+    "projects": [
+      {
+        "name": "Arhangelapp.com",
+        "description": "Landing stranica za duhovnu mobilnu aplikaciju, fokusirana na jasnu poruku, poverenje i konverziju posetilaca u podršku projektu.",
+        "tags": ["Landing Page", "Konverzija", "Brending"],
+        "url": "https://arhangelapp.com"
+      },
+      {
+        "name": "Zgradar.rs",
+        "description": "Platforma za upravljanje zgradama sa fokusom na praktične funkcionalnosti, jednostavnu navigaciju i bolju komunikaciju između upravnika i stanara.",
+        "tags": ["Next.js", "SaaS", "Produkt"],
+        "url": "https://zgradar.rs"
+      },
+      {
+        "name": "Inhaus.ae",
+        "description": "Kreativni studio sa snažnim vizuelnim identitetom; projekat koji pokazuje kako dobar dizajn i sadržaj mogu da podignu percepciju premium brenda.",
+        "tags": ["Studio", "Marketing", "Vizuelni identitet"],
+        "url": "https://inhaus.ae"
+      }
+    ]
+  },
+  "projectsPage": {
+    "heading": "Projekti",
+    "subheading": "Projekti koje sam isporučio – od ideje i dizajna do stabilne produkcije i realnog poslovnog rezultata.",
+    "sectionTitle": "Moji radovi i projekti",
+    "visitCta": "Poseti sajt",
+    "projects": [
+      {
+        "name": "Arhangelapp.com",
+        "description": "Digitalni pravoslavni vodič koji kroz duhovne poruke, kalendar, post i molitve podstiče unutrašnji mir i svakodnevni rad na sebi. Projekat koji prikuplja podršku za razvoj mobilne aplikacije.",
+        "tags": ["Mobilna App", "Srpski", "Duhovnost"],
+        "url": "https://arhangelapp.com"
+      },
+      {
+        "name": "Zgradar.rs",
+        "description": "Platforma za profesionalno upravljanje i održavanje stambenih zgrada u Srbiji. Nudi digitalne alate za upravnike zgrada i stanare - prijave kvarova, glasanje i transparentnu upravu.",
+        "tags": ["Next.js", "SaaS", "Srbija"],
+        "url": "https://zgradar.rs"
+      },
+      {
+        "name": "Inhaus.ae",
+        "description": "Kreativni studio iz Dubaija specijalizovan za brendiranje, produkciju sadržaja i digitalni marketing. Sarađivali su sa brendovima kao što su Grand Hyatt, Mall of Emirates i Unilever.",
+        "tags": ["Kreativni Studio", "Dubai", "Brending"],
+        "url": "https://inhaus.ae"
+      }
+    ]
+  }
+}
