@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { getProjectBySlug, projects } from "@/data/projects";
 import type { ReactNode } from "react";
 import ScrollObserver from "@/components/ScrollObserver";
+import ScrollToTopButton from "@/components/ScrollToTopButton";
 
 type ProjectPageProps = {
   params: Promise<{ slug: string }>;
@@ -80,6 +81,14 @@ export default async function ProjectDetailPage({ params }: ProjectPageProps) {
         </ul>
       </article>
 
+      {project.employerMessage ? (
+        <article className="project-quote reveal-on-scroll animate__animated animate__fadeInUp">
+          <p className="project-quote-kicker">Poruka poslodavca</p>
+          <blockquote className="project-quote-text">“{project.employerMessage.quote}”</blockquote>
+          <p className="project-quote-author">{project.employerMessage.author}</p>
+        </article>
+      ) : null}
+
       <article className="project-block reveal-on-scroll animate__animated animate__fadeInUp">
         <h2>Linkovi</h2>
         <div className="project-links">
@@ -106,6 +115,10 @@ export default async function ProjectDetailPage({ params }: ProjectPageProps) {
           ))}
         </div>
       </article>
+
+      <div className="project-top-action reveal-on-scroll animate__animated animate__fadeInUp">
+        <ScrollToTopButton className="project-top-btn" />
+      </div>
     </section>
   );
 }
