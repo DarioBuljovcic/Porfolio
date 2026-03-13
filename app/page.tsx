@@ -11,12 +11,12 @@ export default function HomePage() {
         <div className="container">
           <div className="hero-badge animate__animated animate__fadeInDown reveal-on-scroll">Portfolio</div>
           <h1 className="animate__animated animate__slideInDown reveal-on-scroll">
-            Dario
+            Beez
             <br />
-            <span>Buljovčić</span>
+            <span>.dev</span>
           </h1>
           <p className="animate__animated animate__fadeInUp animate__delay-1s reveal-on-scroll">
-            Razvijam moderne i brze web sajtove za brendove i male biznise kojima treba jasan nastup i
+            Razvijamo moderne i brze web sajtove za brendove i male biznise kojima treba jasan nastup i
             pouzdano korisničko iskustvo.
           </p>
           <div className="hero-btns animate__animated animate__zoomIn animate__delay-1s reveal-on-scroll">
@@ -46,7 +46,7 @@ export default function HomePage() {
       </section>
 
       <section className="container section-pad results-section animate__animated animate__fadeInUp reveal-on-scroll">
-        <h2>Rezultati koje donosim</h2>
+        <h2>Rezultati koje donosimo</h2>
         <div className="results-grid">
           <article className="result-card">
             <h3>Brza isporuka</h3>

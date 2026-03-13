@@ -21,7 +21,7 @@ export default function ContactPage() {
             <h1>Kontakt</h1>
             <p>
               Ako želite saradnju ili dodatne informacije, javite se direktno.
-              <strong> Odgovaram brzo</strong> i predlažem sledeće konkretne korake.
+              <strong> Odgovaramo brzo</strong> i predlažemo sledeće konkretne korake.
             </p>
 
             <div className="contactv2-lines">
@@ -48,7 +48,7 @@ export default function ContactPage() {
           </aside>
 
           <div className="contactv2-form-wrap reveal-on-scroll animate__animated animate__fadeInUp">
-            {submitted ? <div className="alert alert-success">Hvala vam na poruci. Javljam vam se uskoro.</div> : null}
+            {submitted ? <div className="alert alert-success">Hvala vam na poruci. Javljamo vam se uskoro.</div> : null}
 
             <form onSubmit={handleSubmit} className="contactv2-form">
               <div className="form-group">

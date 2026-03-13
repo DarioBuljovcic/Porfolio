@@ -9,9 +9,9 @@ export default function SiteFooter() {
         <div className="footer-grid">
           <div className="footer-brand">
             <div className="logo">
-              DARIO<span>.DEV</span>
+              BEEZ<span>.DEV</span>
             </div>
-            <p>Portfolio web developera iz Subotice.</p>
+            <p>Digitalni studio za razvoj modernih web rešenja.</p>
           </div>
 
           <div className="footer-links">
@@ -20,9 +20,7 @@ export default function SiteFooter() {
               <li>
                 <Link href="/">Početna</Link>
               </li>
-              <li>
-                <Link href="/o-meni">O meni</Link>
-              </li>
+
               <li>
                 <Link href="/projekti">Projekti</Link>
               </li>
@@ -55,7 +53,7 @@ export default function SiteFooter() {
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; {year} Dario Buljovčić. Sva prava zadržana.</p>
+          <p>&copy; {year} Beez.dev. Sva prava zadržana.</p>
         </div>
       </div>
     </footer>

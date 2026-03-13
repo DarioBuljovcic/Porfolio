@@ -29,7 +29,7 @@ export const projects: ProjectCase[] = [
     listDescription:
       "Sajt koji u kratkoj formi objašnjava ideju proizvoda, gradi poverenje i usmerava posetioce ka podršci daljeg razvoja.",
     highlights: [
-      "Jedini developer",
+      "Beez.dev tim",
       "Design + razvoj",
       "Next.js + Tailwind",
       "Deploy na Vercel",
@@ -41,10 +41,10 @@ export const projects: ProjectCase[] = [
     githubNote: "Kod nije javan jer je projekat klijentski.",
     problem:
       "Proizvod je bio u ranoj fazi i bilo je potrebno napraviti sajt koji će u kratkom roku jasno objasniti ideju aplikacije, izgraditi poverenje i motivisati korisnike da **finansijski podrže razvoj**.",
-    role: "Vodio sam projekat od ideje do isporuke i bio zadužen za **strukturu sadržaja, dizajn i razvoj sajta**, sa fokusom da poruka bude jasna i da ceo flow vodi korisnika ka podršci projektu.",
+    role: "Vodili smo projekat od ideje do isporuke i bili zaduženi za **strukturu sadržaja, dizajn i razvoj sajta**, sa fokusom da poruka bude jasna i da ceo flow vodi korisnika ka podršci projektu.",
     decisions: [
-      "**Tehnološki izbor:** koristio sam Next.js i Tailwind CSS kako bih brzo isporučio performantnu i preglednu landing stranicu.",
-      "**Struktura sadržaja:** sadržaj i sekcije sam organizovao tako da korisnik brzo razume vrednost proizvoda i bez konfuzije dođe do poziva na akciju.",
+      "**Tehnološki izbor:** koristili smo Next.js i Tailwind CSS kako bismo brzo isporučili performantnu i preglednu landing stranicu.",
+      "**Struktura sadržaja:** sadržaj i sekcije smo organizovali tako da korisnik brzo razume vrednost proizvoda i bez konfuzije dođe do poziva na akciju.",
       "**Tradeoff:** prioritet je bio brz izlazak kvalitetne landing stranice, dok su naprednije funkcionalnosti ostavljene za kasniju fazu razvoja proizvoda.",
     ],
     outcomes: [
@@ -54,7 +54,7 @@ export const projects: ProjectCase[] = [
     stack: ["Next.js", "Tailwind CSS", "Vercel"],
     employerMessage: {
       quote:
-        "Rad sa Dariom je od početka bio vrlo organizovan i prirodan. U prvim razgovorima je pažljivo slušao šta želimo da postignemo, postavljao prava pitanja i pomogao nam da jasnije definišemo cilj sajta. Tokom planiranja i dizajna nije samo izvršavao zadatke, već je predlagao konkretna rešenja i objašnjavao zašto su dobra za proizvod i korisnika. Komunikacija je tokom celog procesa bila laka, otvorena i brza, a svaka izmena je rešavana bez komplikacija. Na kraju smo dobili sajt koji izgleda profesionalno, jasno prenosi vrednost proizvoda i ostavlja utisak ozbiljnog projekta.",
+        "Beez.dev je energičan i sposoban tim. Razvili smo zajedno aplikaciju, a potom i sajt, gde su pokazali visoku proaktivnost u predlaganju rešenja u tehnologiji i dizajnu. Pored sjajnih rezultata, veoma su ugodni za saradnju, uživanje!",
       author: "Vidak Radenović, CEO Arhangelapp",
     },
   },
@@ -66,7 +66,7 @@ export const projects: ProjectCase[] = [
     listDescription:
       "Platforma za firmu koja održava zgrade, sa custom CMS-om koji timu omogućava da samostalno uređuje sadržaj i objavljuje vesti.",
     highlights: [
-      "Jedini developer",
+      "Beez.dev tim",
       "Migracija PHP -> Next.js",
       "Custom CMS",
       "Design + sadržaj",
@@ -78,10 +78,10 @@ export const projects: ProjectCase[] = [
     githubNote: "Kod nije javan jer je projekat klijentski.",
     problem:
       "Postojeće rešenje nije dovoljno dobro podržavalo svakodnevno objavljivanje sadržaja, a kompaniji je istovremeno bio potreban sajt koji jasnije objašnjava usluge i ostavlja profesionalniji utisak.",
-    role: "Radio sam na **migraciji, dizajnu, razvoju i organizaciji sadržaja**, sa ciljem da tim dobije jednostavan alat za upravljanje sajtom i jasniju online prezentaciju kompanije.",
+    role: "Radili smo na **migraciji, dizajnu, razvoju i organizaciji sadržaja**, sa ciljem da tim dobije jednostavan alat za upravljanje sajtom i jasniju online prezentaciju kompanije.",
     decisions: [
-      "**Migracija sistema:** postojeće PHP rešenje sam zamenio Next.js aplikacijom kako bi sajt bio lakši za održavanje i dalji razvoj.",
-      "**Custom CMS:** implementirao sam administraciju koja omogućava timu da bez developera menja ključni sadržaj i objavljuje novosti.",
+      "**Migracija sistema:** postojeće PHP rešenje smo zamenili Next.js aplikacijom kako bi sajt bio lakši za održavanje i dalji razvoj.",
+      "**Custom CMS:** implementirali smo administraciju koja omogućava timu da bez developera menja ključni sadržaj i objavljuje novosti.",
       "**Tradeoff:** umesto kratkoročnog popravljanja starog sistema, fokus je stavljen na stabilnije i dugoročnije rešenje.",
     ],
     outcomes: [
@@ -91,7 +91,7 @@ export const projects: ProjectCase[] = [
     stack: ["Next.js", "Custom CMS", "Frontend + Content Workflow"],
     employerMessage: {
       quote:
-        "Saradnja sa Dariom je bila mnogo više od same izrade sajta. Od prvih razgovora se potrudio da razume kako radimo, gde su problemi u starom rešenju i šta novi sajt treba da omogući našem timu. U planiranju i dizajnu bio je strpljiv, otvoren za razgovor i spreman da svaku ideju pretoči u praktično rešenje. Tokom celog procesa komunikacija je bila jednostavna i ljudska, bez nepotrebnog komplikovanja, što nam je ulivalo sigurnost da projekat ide u dobrom smeru. Krajnji rezultat je sajt koji bolje predstavlja firmu i značajno nam olakšava rad sa sadržajem.",
+        "Saradnja sa Beez.dev timom je bila mnogo više od same izrade sajta. Od prvih razgovora su se potrudili da razumeju kako radimo, gde su problemi u starom rešenju i šta novi sajt treba da omogući našem timu. U planiranju i dizajnu bili su strpljivi, otvoreni za razgovor i spremni da svaku ideju pretoče u praktično rešenje. Tokom celog procesa komunikacija je bila jednostavna i ljudska, bez nepotrebnog komplikovanja, što nam je ulivalo sigurnost da projekat ide u dobrom smeru. Krajnji rezultat je sajt koji bolje predstavlja firmu i značajno nam olakšava rad sa sadržajem.",
       author: "Daniel Drčić, Vlasnik Zgradara",
     },
   },
@@ -103,7 +103,7 @@ export const projects: ProjectCase[] = [
     listDescription:
       "Sajt za kreativni studio koji kombinuje portfolio prezentaciju, dobar tehnički rezultat i jednostavno upravljanje sadržajem za interni tim.",
     highlights: [
-      "Jedini developer",
+      "Beez.dev tim",
       "SEO + performanse",
       "Next.js",
       "Image optimization tradeoff + custom CMS",
@@ -115,7 +115,7 @@ export const projects: ProjectCase[] = [
     githubNote: "Kod nije javan jer je projekat klijentski.",
     problem:
       "Studiju je bio potreban sajt koji može da funkcioniše i kao reprezentativan portfolio i kao praktičan marketinški kanal, bez žrtvovanja performansi i SEO osnove.",
-    role: "Bio sam zadužen za **razvoj sajta, tehničku strukturu i implementaciju CMS workflow-a**, sa fokusom na brzinu, održivost i lakši rad tima sa sadržajem.",
+    role: "Bili smo zaduženi za **razvoj sajta, tehničku strukturu i implementaciju CMS workflow-a**, sa fokusom na brzinu, održivost i lakši rad tima sa sadržajem.",
     decisions: [
       "**Tehnička osnova:** Next.js je izabran zbog dobrog balansa između SEO benefita, performansi i razvoja sadržajnog sajta.",
       "**Performanse:** Image Optimization je isključen jer u konkretnom setup-u nije donosio dovoljno vrednosti u odnosu na potrošnju resursa.",
@@ -128,7 +128,7 @@ export const projects: ProjectCase[] = [
     stack: ["Next.js", "Custom CMS", "SEO", "Optimizacija performansi"],
     employerMessage: {
       quote:
-        "Rad sa Dariom je bio prijatan, jasan i veoma profesionalan. Od samog početka je umeo da vodi razgovor tako da izvuče prave informacije, sasluša naše ciljeve i prevede ih u konkretan plan. Tokom planiranja i razvoja stalno smo imali osećaj dobre saradnje, jer je znao da objasni predloge, prihvati sugestije i prilagodi rešenja onome što nam je zaista potrebno. Ceo proces je bio miran i dobro organizovan, što je dosta značilo jer ovakvi projekti često znaju da postanu haotični. Na kraju smo dobili brz, pregledan i kvalitetan sajt, ali i saradnju koja je od početka do kraja bila laka i pouzdana.",
+        "Rad sa Beez.dev timom je bio prijatan, jasan i veoma profesionalan. Od samog početka su umeli da vode razgovor tako da izvuku prave informacije, saslušaju naše ciljeve i prevedu ih u konkretan plan. Tokom planiranja i razvoja stalno smo imali osećaj dobre saradnje, jer su znali da objasne predloge, prihvate sugestije i prilagode rešenja onome što nam je zaista potrebno. Ceo proces je bio miran i dobro organizovan, što je dosta značilo jer ovakvi projekti često znaju da postanu haotični. Na kraju smo dobili brz, pregledan i kvalitetan sajt, ali i saradnju koja je od početka do kraja bila laka i pouzdana.",
       author: "David Gomori, CEO Markteching",
     },
   },

@@ -28,7 +28,7 @@ export default function SiteHeader() {
         <div className="container">
           <nav>
             <Link href="/" className="logo" onClick={closeMenu}>
-              DARIO<span>.DEV</span>
+              BEEZ<span>.DEV</span>
             </Link>
 
             <ul className={`nav-links ${menuOpen ? "nav-active" : ""}`} id="nav-links">
@@ -37,11 +37,7 @@ export default function SiteHeader() {
                   Početna
                 </Link>
               </li>
-              <li>
-                <Link href="/o-meni" onClick={closeMenu}>
-                  O meni
-                </Link>
-              </li>
+
               <li>
                 <Link href="/projekti" onClick={closeMenu}>
                   Projekti

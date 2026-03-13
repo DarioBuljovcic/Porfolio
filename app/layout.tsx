@@ -5,16 +5,16 @@ import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
 
 export const metadata: Metadata = {
-  title: "Dario.dev | Portfolio",
+  title: "Beez.dev | Digitalni Studio",
   description:
-    "Licni portfolio i internet prezentacija studenta informacionih tehnologija Darija Buljovcica.",
+    "Beez.dev - Digitalni studio za razvoj modernih web rešenja, brending i optimizaciju korisničkog iskustva.",
 };
 
 export default function RootLayout({
   children,
 }: Readonly<{ children: ReactNode }>) {
   return (
-    <html >
+    <html lang="sr">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
